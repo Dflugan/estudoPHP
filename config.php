@@ -3,7 +3,7 @@
 Container::set('app.view.path', __DIR__ . '/App/Views/');
 
 // URL da aplicação
-Container::set('app.url', 'http://localhost:8000');
+Container::set('app.url', 'http://localhost:80000');
 
 // Dados de acesso ao banco de dados
 Container::set('app.db.config', [
