@@ -1,5 +1,7 @@
 <?php
-
+/*
+* Flavio Santos
+*/
 // Autoload
 spl_autoload_register(function($class) {
 
@@ -17,4 +19,3 @@ require __DIR__ . '/Foundation/Container.php';
 
 // Carrega os helpers
 require __DIR__ . '/App/Helpers.php';
-
