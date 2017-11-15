@@ -2,7 +2,7 @@
 //teste
 //teste master
 //teste origin
-// teste conflito master
+//teste conflit master
 require '../bootstrap.php';
 
 $page = isset($_GET['page']) ? $_GET['page'] : 'index';
