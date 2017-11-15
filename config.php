@@ -1,6 +1,7 @@
 <?php
 // Caminho dos arquivos de visão
 //mudei
+//mudei tambem
 Container::set('app.view.path', __DIR__ . '/App/Views/');
 
 // URL da aplicação
