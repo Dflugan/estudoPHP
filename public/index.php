@@ -1,6 +1,7 @@
 <?php
 //teste
 //teste master
+//teste origin
 require '../bootstrap.php';
 
 $page = isset($_GET['page']) ? $_GET['page'] : 'index';
