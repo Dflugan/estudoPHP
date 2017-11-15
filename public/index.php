@@ -1,5 +1,5 @@
 <?php
-
+//teste
 require '../bootstrap.php';
 
 $page = isset($_GET['page']) ? $_GET['page'] : 'index';
