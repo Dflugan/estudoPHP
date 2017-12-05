@@ -1,5 +1,5 @@
 <?php
-$nome = "Flavio"
+$nome = "Flavio";
 //echo $nome;
-var_dump($nome)
+var_dump($nome);
  ?>
