@@ -1,8 +1,9 @@
-<?php 
-$nome = array('empresa' =>'Dflug' , );
-setcookie('NOME_COOKIES', json_encode($nome), time() + 3600);
+<?php
+$data = array(
+  "celular" => "nokia",
+  "Notebook"=> "Hp1900"
+);
+setcookie("testeCookie", json_encode($data, time() + 360));
 
-echo "ok";
-
-
+echo "ok, cookie gravado";
  ?>
