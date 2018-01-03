@@ -1,7 +1,9 @@
-.gitignore
+/.gitignore
 /nbproject/private/
 drivers_php7_sql_server/
 drivers-php7-sql-server.zip
 DAO
 /download/teste
 /FGETS
+/erros/exemplo-01.php
+teste.php
