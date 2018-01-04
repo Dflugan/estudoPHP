@@ -17,5 +17,4 @@ imagejpeg($new_image, "imagem" . DIRECTORY_SEPARATOR . "teste-". date("d-m-y"). 
 
 imagedestroy($old_image);
 imagedestroy($new_image);
-
  ?>
