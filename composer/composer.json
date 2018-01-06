@@ -1,0 +1,13 @@
+{
+    "name": "flaaps/composer",
+    "description": "Estudo teste PHP7",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Dfluan",
+            "email": "dflaphp@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {"monolog/monolog": "1.0.*"}
+}
