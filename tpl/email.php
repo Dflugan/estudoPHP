@@ -20,10 +20,22 @@ $tpl->assign( "data", date("d/m/y H:i:s") );
 // draw the template
 $html = $tpl->draw( "index", true );
 
-$mail = new PHPMailer\PHPMailer\PHPMailer(); 
+require_once("vendor/autoload.php");
+use PHPMailer\PHPMailer\PHPMailer;
+//Create a new PHPMailer instance
+//$mail = new PHPMailer;
+$mail = new PHPMailer; 
 
 //Tell PHPMailer to use SMTP
 $mail->isSMTP();
+
+$mail->SMTPOptions = array(
+    'ssl' => array(
+        'verify_peer' => false,
+        'verify_peer_name' => false,
+        'allow_self_signed' => true
+    )
+ );
 
 //Enable SMTP debugging
 // 0 = off (for production use)
