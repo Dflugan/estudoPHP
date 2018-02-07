@@ -16,7 +16,7 @@ curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 $recaptch = json_decode(curl_exec($ch), true);
 curl_close($ch);
 
-if($recaptch['success']){
+if($recaptch['success'] === true){
   echo "Email: " . $_POST['email'];
 }else {
   header('Location: exemplo-04.php');
